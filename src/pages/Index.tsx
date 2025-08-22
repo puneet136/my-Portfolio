@@ -44,7 +44,7 @@ export default function Portfolio() {
       title: "Library Management System",
       description: "Developed a Library Management System using Java and MySQL to streamline book inventory, user management, and borrowing/return processes with an interactive UI.",
       emoji: "🤖",
-      technologies: ["Java", "JSwing"],
+      technologies: ["Java", "JSwing", "SQL"],
       links: [
         { text: "View Project", url: "https://github.com/puneet136/LibraryManagementSystem" }
       ]

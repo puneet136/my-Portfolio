@@ -24,7 +24,7 @@ export default function Resume() {
       period: "2023 - 2027",
       location: "Jaipur",
       gpa: "9.06/10.0",
-      achievements: ["Secured 1st rank in college hackathon.", "Published a research paper on AI applications."],
+      achievements: ["Secured 1st rank in college project exhibition in REN'25."],
     },
   ];
 
@@ -35,14 +35,7 @@ export default function Resume() {
     "Tools": ["Git", "Vs code", "Postman"],
   };
 
-  const certifications = [
-    {
-      name: "Java Programming Certification",
-      issuer: "Oracle",
-      date: "2024",
-      credentialId: "CERT12345",
-    },
-  ];
+  
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${theme === 'dark' ? 'dark bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
@@ -153,30 +146,6 @@ export default function Resume() {
                         {skill}
                       </Badge>
                     ))}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
-
-        {/* Certifications */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-            <div className="w-1 h-6 bg-blue-600"></div>
-            Certifications
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {certifications.map((cert, index) => (
-              <Card key={index} className="border-l-4 border-l-yellow-500">
-                <CardContent className="pt-6">
-                  <div className="flex items-start gap-3">
-                    <Award className="h-5 w-5 text-yellow-500 mt-1" />
-                    <div>
-                      <h3 className="font-semibold">{cert.name}</h3>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">{cert.issuer}</p>
-                      <p className="text-sm text-gray-500">{cert.date} • ID: {cert.credentialId}</p>
-                    </div>
                   </div>
                 </CardContent>
               </Card>
