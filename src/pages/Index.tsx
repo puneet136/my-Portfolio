@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import Navbar from '@/components/Navbar';
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { SiLeetcode } from "react-icons/si";
 import { Link } from 'react-router-dom';
 
 export default function Portfolio() {
@@ -129,6 +130,13 @@ export default function Portfolio() {
                     <span className="ml-2">LinkedIn</span>
                   </a>
                 </Button>
+                <Button variant="ghost" size="sm" className="p-2" asChild>
+                  <a href="https://leetcode.com/u/Puneet_13/" target="_blank" rel="noopener noreferrer">
+                    <SiLeetcode className="h-5 w-5 text-black-500" />
+                    <span className="ml-2">LeetCode</span>
+                  </a>
+                </Button>
+
               </div>
             </div> {/* End Left Column */}
 
