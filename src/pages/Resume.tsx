@@ -23,7 +23,7 @@ export default function Resume() {
       institution: "Jaipur Engineering College And Research Center",
       period: "2023 - 2027",
       location: "Jaipur",
-      gpa: "9.06/10.0",
+      gpa: "9.20/10.0",
       achievements: ["Secured 1st rank in college project exhibition in REN'25."],
     },
   ];

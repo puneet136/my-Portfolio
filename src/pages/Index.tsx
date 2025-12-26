@@ -29,6 +29,17 @@ export default function Portfolio() {
   };
 
   const projects = [
+      {
+            title: "Job Portal Application",
+            description: "Job Portal Application Used in company career portal",
+            status: "Active",
+            emoji: "🎡",
+            content: "APIs Based JOB Portal Application have importance for Companies for posting their JOBs and also helpful for employers to track their Job Status(Pending , Viewed Resume , Hired). Built with Java 21 , Spring Boot, JWT & MySQL.",
+            technologies: ["SpringBoot", "JAVA 21", "JWT", "MySQL","Spring Data JPA","Spring Security", "Springdoc OpenAPI"],
+            links: [
+              { text: "GitHub Repo - You can also contribute!", url: "https://github.com/puneet136/Job_Portal_API" }
+            ]
+          },
     {
       title: "Gradeify",
       description: "Smart Academic Management Portal",
