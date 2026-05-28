@@ -23,7 +23,7 @@ export default function Resume() {
       institution: "Jaipur Engineering College And Research Center",
       period: "2023 - 2027",
       location: "Jaipur",
-      gpa: "9.20/10.0",
+      gpa: "9.24/10.0",
       achievements: ["Secured 1st rank in college project exhibition in REN'25."],
     },
   ];
@@ -61,7 +61,7 @@ export default function Resume() {
               </div>
             </div>
             <Button variant="secondary" size="lg" className="mt-6" asChild>
-              <a href="https://drive.google.com/file/d/1giwUzW1DWL8I_rV90gNOdmU46vx9jBiv/view?usp=sharing" download>
+              <a href="https://drive.google.com/file/d/1M9cYEKEV0FCIQD3z63t0SY0u39H1445F/view?usp=sharing" download>
                 <Download className="h-4 w-4 mr-2" />
                 View PDF Resume
               </a>
