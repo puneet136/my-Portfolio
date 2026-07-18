@@ -37,6 +37,7 @@ export default function Portfolio() {
             content: "APIs Based JOB Portal Application have importance for Companies for posting their JOBs and also helpful for employers to track their Job Status(Pending , Viewed Resume , Hired). Built with Java 21 , Spring Boot, JWT & MySQL.",
             technologies: ["SpringBoot", "JAVA 21", "JWT", "MySQL","Spring Data JPA","Spring Security", "Springdoc OpenAPI"],
             links: [
+                { text: "Demo - Live Website", url: "https://job-portal-api-erlx.onrender.com/swagger-ui/index.html" },
               { text: "GitHub Repo - You can also contribute!", url: "https://github.com/puneet136/Job_Portal" }
             ]
           },
