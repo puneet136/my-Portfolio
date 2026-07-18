@@ -61,7 +61,7 @@ export default function Resume() {
               </div>
             </div>
             <Button variant="secondary" size="lg" className="mt-6" asChild>
-              <a href="https://drive.google.com/file/d/1M9cYEKEV0FCIQD3z63t0SY0u39H1445F/view?usp=sharing" download>
+              <a href="https://drive.google.com/file/d/1EBh5XwDF3HMsS_EURSfOtoFed2nenbbL/view?usp=sharing" download>
                 <Download className="h-4 w-4 mr-2" />
                 View PDF Resume
               </a>
